@@ -29,3 +29,7 @@ var obj = document.getElementById('box');
 obj.onclick = function() {
     animate(obj,{'left':200, 'top':50});
 };
+var obj=document.getElementById('box');
+obj.onclick=function() {
+    animate(obj,{'left':Math.random()*1900,'top':Math.random()*930});
+};
