@@ -7,7 +7,7 @@ function connect() {
         document.getElementById('disconn').disabled='';
         let nickname=document.getElementById('nickname').value
         if(nickname){
-            ws.send('nickname'+nickname)
+            ws.send('nickname|'+nickname)
         }
 
     }
